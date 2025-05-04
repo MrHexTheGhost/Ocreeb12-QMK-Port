@@ -1,5 +1,7 @@
 # Ocreeb12 QMK Port
 
+![Ocreeb12](https://content.instructables.com/F7R/LF8K/L8K7KS4B/F7RLF8KL8K7KS4B.png)
+
 Port for the Ocreeb12 Macropad created by Salim Benbouziyane for use with QMK firmware with VIA/VIAL support. Still a work in progress.
 
 * Keyboard Maintainer: [MrHexTheGhost](https://github.com/MrHexTheGhost)
@@ -21,5 +23,5 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 Enter the bootloader:
 
-* Hold down BOOT then press RESET. Keep holding BOOT until the RPi-RP2 drive becomes visible.
+* Hold down BOOT then press RESET. Keep holding BOOT until the RPI-RP2 drive becomes visible.
 * Drag the .uf2 file into it.
