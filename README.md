@@ -1,11 +1,11 @@
-# Ocreeb12-QMK-Port
+# Ocreeb12 QMK Port
+
+Port for the Ocreeb12 Macropad created by Salim Benbouziyane for use with QMK firmware with VIA/VIAL support. Still a work in progress.
 
 * Keyboard Maintainer: [MrHexTheGhost](https://github.com/MrHexTheGhost)
 * Hardware Supported: KB2040
-* Hardware Availability: 
+* Hardware Availability: https://www.instructables.com/DIY-Mechanical-Macro-Keypad-Ocreeb/
 * Original Author: Salim Benbouziyane
-
-Port for the Ocreeb12 Macropad created by Salim Benbouziyane for use with QMK firmware with VIA/VIAL support.
 
 Make example for this keyboard (after setting up your build environment):
 
@@ -19,8 +19,7 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 ## Bootloader
 
-Enter the bootloader in 3 ways:
+Enter the bootloader:
 
-* **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
-* **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
-* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
+* Hold down BOOT then press RESET. Keep holding BOOT until the RPi-RP2 drive becomes visible.
+* Drag the .uf2 file into it.
