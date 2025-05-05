@@ -1,6 +1,6 @@
 {
-    "manufacturer": "MrHexTheGhost",
-    "keyboard_name": "ocrebmqmk",
+    "manufacturer": "Adafruit",
+    "keyboard_name": "ocreebmqmk",
     "maintainer": "MrHexTheGhost",
     "development_board": "kb2040",
     "diode_direction": "COL2ROW",
@@ -15,7 +15,7 @@
     },
     "matrix_pins": {
         "cols": ["GP3", "GP4", "GP5", "GP6"],
-        "rows": ["GP7", "GP8", "GP9", "GP26", "GP19"]
+        "rows": ["GP7", "GP8", "GP9"]
     },
 	"encoder": {
         "rotary": [
@@ -43,15 +43,7 @@
                 {"matrix": [2, 0], "x": 0, "y": 2},
                 {"matrix": [2, 1], "x": 1, "y": 2},
                 {"matrix": [2, 2], "x": 2, "y": 2},
-                {"matrix": [2, 3], "x": 3, "y": 2},
-				{"matrix": [3, 0], "x": 0, "y": 3},
-				{"matrix": [3, 1], "x": 1, "y": 3},
-				{"matrix": [3, 2], "x": 2, "y": 3},
-				{"matrix": [3, 3], "x": 3, "y": 3},
-				{"matrix": [4, 0], "x": 0, "y": 4},
-				{"matrix": [4, 1], "x": 1, "y": 4},
-				{"matrix": [4, 2], "x": 2, "y": 4},
-				{"matrix": [4, 3], "x": 3, "y": 4}
+                {"matrix": [2, 3], "x": 3, "y": 2}
             ]
         }
     }
