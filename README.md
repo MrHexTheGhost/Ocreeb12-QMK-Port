@@ -20,10 +20,16 @@ Flashing example for this keyboard:
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
-## Flashing:
 
-* Hold down BOOT then press RESET and keep holding BOOT until the RPi-RP2 drive becomes visible.
-* Drag the .uf2 file into it and you're done.
+To compile the code on QMK_MSYS:
+
+	qmk compile -kb ocreebqmk -km vial
+	
+
+## Flashing the firmware:
+
+* Hold down BOOT then press RESET and keep holding BOOT until the RPI-RP2 drive becomes visible.
+* Drag the .uf2 file into the USB drive then you're done.
 
 
 ## Todo:
